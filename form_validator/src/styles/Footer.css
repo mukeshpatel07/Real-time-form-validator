@@ -1,0 +1,25 @@
+
+.footer {
+  background-color: var(--footer-bg, #333);
+  color: var(--footer-text, #fff);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer a {
+  color: var(--footer-link, #00bcd4);
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: var(--footer-link-hover, #0097a7);
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-size: 0.9rem;
+}
